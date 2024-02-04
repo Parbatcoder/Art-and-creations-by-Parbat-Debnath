@@ -1,0 +1,77 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    font-family: 'Tiro Bangla', serif;
+    text-align: center;
+}
+.starting
+{
+    font-size: 30px;
+}
+.play .heading
+{
+    padding: 10vw;
+    margin: 5vw;
+    border-bottom: 1px solid black;
+}
+.play h1
+{
+    
+    text-align: center;
+}
+.play h3
+{
+    font-family: 'Tiro Bangla', serif;
+    text-align: center;
+    color: #474747;
+}
+.play p
+{
+    font-family: 'Tiro Bangla', serif;
+    padding: 1vw;
+    padding-top: 2vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    text-align: justify;
+}
+.play br
+{
+    padding: 0.1vw;
+}
+.play .scene
+{
+    width: 100%;
+    font-weight: bold;
+    position: relative;
+    color: #5c5c5c;
+    text-align: center;
+    font-family: 'Tiro Bangla', serif;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+@media only screen and (min-width: 600px)
+{
+    .play .heading
+    {
+        padding: 60px;
+    }
+    .play p
+    {
+        padding-top: 5px;
+    }
+    .play .scene
+    {
+        
+    }
+}
+@media only screen and (min-width: 2400px)
+{
+    .play p
+    {
+        padding: 0.1vw;
+    }
+}
